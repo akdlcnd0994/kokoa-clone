@@ -13,6 +13,10 @@
   font-size: 22px;
 }
 
-.settings__setting-column:last-child {
+.settings__setting-column-last {
   opacity: 0.5;
+}
+
+.settings__setting:first-child div {
+  margin-top: 100px;
 }

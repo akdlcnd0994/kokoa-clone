@@ -11,22 +11,22 @@
 .user-component__text {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   padding-left: 15px;
   size: 5px;
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
-  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
   margin-right: 20px;
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .user-component__text {
@@ -41,9 +41,9 @@
 }
 
 .user-component__avatrer--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
 
 .user-component__title--not-bold {

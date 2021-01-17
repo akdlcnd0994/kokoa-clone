@@ -6,7 +6,9 @@
   display: flex;
   align-items: center;
 }
-
+.find-body {
+  height: 120vh;
+}
 .recommended-friends {
   margin: 15px 0px;
   padding: 25px 0px;

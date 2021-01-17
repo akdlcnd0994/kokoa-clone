@@ -57,18 +57,21 @@
 }
 
 @keyframes appearBtnAnimation {
-  from {
+  0% {
     opacity: 0;
   }
+  50% {
+    transform: matrix(1, 4, 4, 1, 0, -10);
+  }
 
-  to {
+  100% {
     opacity: 1;
     transform: none;
   }
 }
 
 .nav__btn {
-  transform: translateY(50px);
+  transform: matrix(2, 5, 5, 4, 0, -100);
   opacity: 0;
   animation: appearBtnAnimation 0.3s ease-in-out forwards;
 }

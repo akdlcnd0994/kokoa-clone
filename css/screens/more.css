@@ -6,6 +6,8 @@
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
 }
 
 .more-suggestions__title {
@@ -17,21 +19,30 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
+  width: 80px;
+  height: 80px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.more-suggestions__icon .kokoastory {
+  background-color: var(--yellow);
+}
+
+.more-suggestions__icon-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
 
 .more-screen .user-component__text {
@@ -45,4 +56,19 @@
 
 .more-screen .user-component__text {
   margin-left: -10px;
+}
+
+@keyframes hoverAnimation {
+  from {
+    animation: none;
+  }
+  to {
+    padding: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+}
+
+.more-suggestions__icon:hover {
+  animation: hoverAnimation 1s ease-in-out forwards;
 }

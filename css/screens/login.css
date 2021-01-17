@@ -1,11 +1,12 @@
 .welcome-header {
-  margin: 90px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 .welcome-header__title {
+  margin-top: 170px;
   margin-bottom: 20px;
   font-size: 30px;
 }
@@ -51,8 +52,9 @@ input:focus {
 }
 
 #login-form a {
+  margin-top: 20px;
   text-align: center;
   text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+  font-family: fantasy;
+  font-size: 17px;
 }

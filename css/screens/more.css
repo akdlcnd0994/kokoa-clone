@@ -42,3 +42,7 @@
   font-size: 32px;
   color: white;
 }
+
+.more-screen .user-component__text {
+  margin-left: -5px;
+}

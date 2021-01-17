@@ -1,5 +1,10 @@
 .user-component {
   justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
 .user-component,
@@ -14,7 +19,11 @@
   align-items: flex-start;
   flex-direction: column;
   padding-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
   size: 5px;
+  color: black;
+  font-family: "Imbue", serif;
 }
 
 .user-component__avatar {
@@ -29,15 +38,10 @@
   height: 80px;
 }
 
-.user-component__text {
-  font-weight: 600;
-  font-size: 22px;
-}
-
 .user-component__subtitle {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .user-component__avatrer--sm {
@@ -47,11 +51,10 @@
 }
 
 .user-component__title--not-bold {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .friends-screen__channel {
-  margin-top: 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 15px;
 }
@@ -79,8 +82,7 @@
   border: var(--main-border);
   border-color: tomato;
   padding: 0 6px;
-  font-size: 12px;
+  font-size: 15px;
   color: tomato;
-
   border-radius: 50%;
 }

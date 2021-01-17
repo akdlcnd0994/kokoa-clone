@@ -34,6 +34,10 @@
   margin-bottom: 10px;
 }
 
+.more-screen .user-component__text {
+  font-family: sans-serif;
+}
+
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;

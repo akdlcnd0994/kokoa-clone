@@ -1,4 +1,6 @@
 .status-bar {
+  background-color: black;
+  color: white;
   display: flex;
   position: fixed;
   top: 0px;
@@ -24,6 +26,7 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }

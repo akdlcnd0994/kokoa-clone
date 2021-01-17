@@ -4,9 +4,21 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Mario Dictionary</title>
+    <title>Chats - Kokoa Clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Imbue:wght@300;800&display=swap");
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imbue:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="background">
+      <img src="screenshots/background.png" />
+    </div>
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -25,7 +37,9 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
       </div>
     </header>
 
@@ -38,14 +52,12 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="screenshots/ma2.jpg"
+            src="screenshots/bono2.jpg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">김마리오</h4>
-            <h6 class="user-component__subtitle">
-              오늘도 사전을 방문해 주셔서 감사합니다. ㅎㅎ
-            </h6>
+            <h4 class="user-component__title">Bono</h4>
+            <h6 class="user-component__subtitle">Don't say bullshit....</h6>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -58,12 +70,50 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="screenshots/ma-pop.jpg"
+              src="screenshots/father.jpg"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                타코야끼 드실? 아 ,, 팝콘이구나
+                Father
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>5</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/neoburi.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Neoburi
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>6</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/porori.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Porori
               </h4>
             </div>
           </div>
@@ -86,7 +136,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">2</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>

@@ -1,0 +1,9 @@
+body {
+  z-index: 1;
+}
+.background img {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}

@@ -134,7 +134,7 @@
   animation: fadeIn_own 3s linear forwards;
 }
 .chat-porori .message-row:nth-child(7) {
-  animation: fadeIn_img 5s linear forwards;
+  animation: fadeIn_img 4s linear forwards;
 }
 
 .chat-neoburi .message-row:nth-child(1) {

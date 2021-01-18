@@ -30,3 +30,33 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+@keyframes alwaysAnimation {
+  0% {
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.status-bar__column .service {
+  animation: alwaysAnimation 5s ease-in-out infinite;
+}
+
+@keyframes alwaysAnimation2 {
+  0% {
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.status-bar__column .fa-bolt {
+  animation: alwaysAnimation2 3s ease-in-out infinite;
+}

@@ -9,12 +9,12 @@
   width: 100%;
   box-sizing: border-box;
   top: 0px;
+  z-index: 1;
 }
 
 #chat-screen .alt-header {
   background-color: #abc1d1;
   top: 25px;
-  z-index: 1;
   height: 70px;
 }
 
